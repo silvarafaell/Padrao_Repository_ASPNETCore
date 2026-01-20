@@ -1,0 +1,1 @@
+# Padrao_Repository_ASPNETCore
