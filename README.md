@@ -9,3 +9,15 @@ Curso Padrão Repository com ASP.NET Core no nextwave(LuisDEV)
  - Na arquitetura Limpa, é composto por:
    - Interface: contém o contrato dos métodos do repositório, ficando localizada na camada Core.
    - Implementação: contém a implementação dos métodos definidos na interface, podendo utilizar Entity Framework Core, Dapper, ADO.NET, ou outras ferramentas de acesso a dados.
+### Padrões de Refatoração
+   - Refatoração é o ato de melhorar o projeto sem alterar seu comportamento.
+   - Como desenvolvedores, se existe algo que não podemos fugir é de refatorações.
+   - A realidade é que na indústria não se fala muito disso: quando encontramos código ruim, somos ágeis em colocar a culpa no desenvolvedor que passou anteriormente no projeto
+   - Mas será que estamos fazendo algo para melhorar isso, ou somente aumentando o problema, sendo irresponsáveis ?
+   - Por isso, é essencial entender melhor sobre as mecânicas de alteração de software
+   - Segundo o livro "Trabalho Eficaz com Código Legado", existem 4 razões para se alterar um software:
+     - Inclusão de uma funcionalidade
+     - Correção de um bug
+     - Melhoria do projeto (se refere a estrutura)
+     - Otimização de uso de recursos (processamento ou memória, por exemplo)
+   - 
